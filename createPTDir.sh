@@ -6,7 +6,7 @@ read dirName
 
 printf "Generating Directories...\n"
 
-mkdir $dirName && mkdir -vp $dirName/{EPT,IPT/{evidence,logs,scans,scope,tools}} && mkdir -vp $dirName/{EPT,IPT/evidence/{credentials,data,screenshots}} && mkdir -vp $dirName/Documents/{writeUps,reports,appendicies,summary}
+mkdir $dirName && mkdir -vp $dirName/{EPT,IPT}/{evidence,logs,scans,scope,tools} && mkdir -vp $dirName/{EPT,IPT}/evidence/{credentials,data,screenshots} && mkdir -vp $dirName/Documents/{writeUps,reports,appendicies,summary}
 
 if [ -d "$dirName/EPT/evidence" ]; then echo "Directory created successfully" else echo "Error"; fi
 
