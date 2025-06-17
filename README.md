@@ -14,12 +14,20 @@ Simple bash script to automate directory creation for more structured pentest re
 Enter Company Name: JimTech
 Generating Directories...
 mkdir: created directory 'JimTech/EPT'
+mkdir: created directory 'JimTech/EPT/evidence'
+mkdir: created directory 'JimTech/EPT/logs'
+mkdir: created directory 'JimTech/EPT/scans'
+mkdir: created directory 'JimTech/EPT/scope'
+mkdir: created directory 'JimTech/EPT/tools'
 mkdir: created directory 'JimTech/IPT'
 mkdir: created directory 'JimTech/IPT/evidence'
 mkdir: created directory 'JimTech/IPT/logs'
 mkdir: created directory 'JimTech/IPT/scans'
 mkdir: created directory 'JimTech/IPT/scope'
 mkdir: created directory 'JimTech/IPT/tools'
+mkdir: created directory 'JimTech/EPT/evidence/credentials'
+mkdir: created directory 'JimTech/EPT/evidence/data'
+mkdir: created directory 'JimTech/EPT/evidence/screenshots'
 mkdir: created directory 'JimTech/IPT/evidence/credentials'
 mkdir: created directory 'JimTech/IPT/evidence/data'
 mkdir: created directory 'JimTech/IPT/evidence/screenshots'
@@ -28,6 +36,7 @@ mkdir: created directory 'JimTech/Documents/writeUps'
 mkdir: created directory 'JimTech/Documents/reports'
 mkdir: created directory 'JimTech/Documents/appendicies'
 mkdir: created directory 'JimTech/Documents/summary'
+Directory created successfully else echo Error
 Generating README...
 # JimTech - Pentest Report Introduction\n## Author - An0nyM0u53\n
 JimTech
@@ -38,6 +47,14 @@ JimTech
 │   ├── summary
 │   └── writeUps
 ├── EPT
+│   ├── evidence
+│   │   ├── credentials
+│   │   ├── data
+│   │   └── screenshots
+│   ├── logs
+│   ├── scans
+│   ├── scope
+│   └── tools
 └── IPT
     ├── evidence
     │   ├── credentials
@@ -47,5 +64,8 @@ JimTech
     ├── scans
     ├── scope
     └── tools
+
+24 directories, 1 file
+
 
 ```
