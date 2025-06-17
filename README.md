@@ -6,7 +6,7 @@
 
 ## Summary
 
-Simple bash script to automate directory creation for more structured pentest reports, prompts user for company name and generates nested directories for each stage of the report. 
+Simple bash script to automate directory creation for more structured pentest reports, prompts user for company name and generates nested directories for each stage of the report. Directory structure is based on HackTheBox's Directory list in GettingStarted/StayingOrganized module.
 
 ## Example Output:
 
